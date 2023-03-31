@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_openMSP430_fpga_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_openMSP430_fpga" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="66.575372 us"></ZoomStartTime>
+      <ZoomEndTime time="74.884926 us"></ZoomEndTime>
+      <Cursor1Time time="101.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_openMSP430_fpga/CLK_100MHz" type="logic">
+      <obj_property name="ElementShortName">CLK_100MHz</obj_property>
+      <obj_property name="ObjectShortName">CLK_100MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/srom_cen" type="array">
+      <obj_property name="ElementShortName">srom_cen[15:0]</obj_property>
+      <obj_property name="ObjectShortName">srom_cen[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/data_addr" type="array">
+      <obj_property name="ElementShortName">data_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/data_wr" type="logic">
+      <obj_property name="ElementShortName">data_wr</obj_property>
+      <obj_property name="ObjectShortName">data_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/i" type="array">
+      <obj_property name="ElementShortName">i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/D_Table" type="array">
+      <obj_property name="ElementShortName">D_Table[15:0]</obj_property>
+      <obj_property name="ObjectShortName">D_Table[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/temp" type="array">
+      <obj_property name="ElementShortName">temp[5:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[5:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/ADDR_MSB" type="array">
+      <obj_property name="ElementShortName">ADDR_MSB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_MSB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/BLK_SIZE" type="array">
+      <obj_property name="ElementShortName">BLK_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLK_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/BLK_SIZE_SHIFT" type="array">
+      <obj_property name="ElementShortName">BLK_SIZE_SHIFT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BLK_SIZE_SHIFT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/irq" type="logic">
+      <obj_property name="ElementShortName">irq</obj_property>
+      <obj_property name="ObjectShortName">irq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/MAX_COUNTER" type="array">
+      <obj_property name="ElementShortName">MAX_COUNTER[5:0]</obj_property>
+      <obj_property name="ObjectShortName">MAX_COUNTER[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/pc" type="array">
+      <obj_property name="ElementShortName">pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/tmp_table" type="array">
+      <obj_property name="ElementShortName">tmp_table[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_table[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_openMSP430_fpga/dut/openMSP430_0/D_Table_0/counter" type="array">
+      <obj_property name="ElementShortName">counter[5:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[5:0]</obj_property>
+   </wvobject>
+</wave_config>

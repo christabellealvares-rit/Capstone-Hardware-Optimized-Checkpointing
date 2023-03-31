@@ -1,0 +1,174 @@
+
+*** Running vivado
+    with args -log openMSP430_fpga.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source openMSP430_fpga.tcl -notrace
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source openMSP430_fpga.tcl -notrace
+Command: link_design -top openMSP430_fpga -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 795.641 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2738 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 3 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'JB1'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB1'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:159]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:159]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC2'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:189]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:189]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC2'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:190]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:190]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:300]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports btnL]'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:300]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:301]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports btnL]'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:301]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'FDCE_0/Q'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:311]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-objects [get_pins FDCE_0/Q]'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:311]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'FDCE_0/Q'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:312]
+WARNING: [Vivado 12-508] No pins matched 'FDCE_1/Q'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:312]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-source [get_pins FDCE_0/Q]'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:312]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'FDCE_1/Q'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:313]
+WARNING: [Vivado 12-508] No pins matched 'FDCE_2/Q'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:313]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-source [get_pins FDCE_1/Q]'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:313]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'FDCE_2/Q'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:314]
+WARNING: [Vivado 12-508] No pins matched 'FDCE_3/Q'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:314]
+CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-source [get_pins FDCE_2/Q]'. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc:314]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/contraints_fpga/Basys-3-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 974.316 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2048 instances were transformed.
+  RAM128X1D => RAM128X1D (MUXF7(x2), RAMD64E(x4)): 2048 instances
+
+7 Infos, 13 Warnings, 10 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 974.316 ; gain = 580.891
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 990.363 ; gain = 16.047
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+Ending Cache Timing Information Task | Checksum: 2154fcbe4
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1540.449 ; gain = 550.086
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/dbg_0/ram_addr_reg[11]_i_1__0 into driver instance openMSP430_0/dbg_0/ram_addr_reg[11]_i_3, which resulted in an inversion of 3 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/irq_num[3]_i_1 into driver instance openMSP430_0/frontend_0/FSM_sequential_i_state[2]_i_2, which resulted in an inversion of 40 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[11]_i_4 into driver instance openMSP430_0/frontend_0/r4[11]_i_6, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[11]_i_5 into driver instance openMSP430_0/frontend_0/r4[11]_i_7, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[11]_i_6 into driver instance openMSP430_0/frontend_0/r4[11]_i_8, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[11]_i_7 into driver instance openMSP430_0/frontend_0/r4[11]_i_9, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[15]_i_15 into driver instance openMSP430_0/frontend_0/r4[15]_i_14, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[15]_i_16 into driver instance openMSP430_0/frontend_0/r4[15]_i_15, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[15]_i_17 into driver instance openMSP430_0/frontend_0/r4[15]_i_16, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[15]_i_18 into driver instance openMSP430_0/frontend_0/r4[15]_i_17, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[3]_i_3 into driver instance openMSP430_0/frontend_0/r4[3]_i_10, which resulted in an inversion of 15 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[3]_i_5 into driver instance openMSP430_0/frontend_0/r4[3]_i_8, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[3]_i_6 into driver instance openMSP430_0/frontend_0/r4[3]_i_9, which resulted in an inversion of 14 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[7]_i_4 into driver instance openMSP430_0/frontend_0/r4[7]_i_6, which resulted in an inversion of 16 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[7]_i_6 into driver instance openMSP430_0/frontend_0/r4[7]_i_10, which resulted in an inversion of 15 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r1[7]_i_7 into driver instance openMSP430_0/frontend_0/r4[7]_i_11, which resulted in an inversion of 15 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/frontend_0/r3[7]_i_1 into driver instance openMSP430_0/frontend_0/pc[7]_i_2, which resulted in an inversion of 20 pins
+INFO: [Opt 31-1287] Pulled Inverter openMSP430_0/mem_backbone_0/inst_so[7]_i_1 into driver instance openMSP430_0/mem_backbone_0/inst_so[7]_i_2, which resulted in an inversion of 3 pins
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 16b77a0aa
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.936 . Memory (MB): peak = 1880.480 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 18 cells
+INFO: [Opt 31-1021] In phase Retarget, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1cf429f67
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.996 . Memory (MB): peak = 1880.480 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1779935bf
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1880.480 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1779935bf
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1880.480 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1779935bf
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1880.480 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1779935bf
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1880.480 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |              18  |                                              1  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1880.480 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1b4975054
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1880.480 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation

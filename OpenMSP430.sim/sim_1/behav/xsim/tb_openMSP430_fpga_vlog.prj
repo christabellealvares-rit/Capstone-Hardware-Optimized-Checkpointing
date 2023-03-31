@@ -1,0 +1,41 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/AC.v" \
+"../../../../OpenMSP430.srcs/sources_1/new/D_Table.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/X_stack.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/atomicity.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_AC.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_X_stack.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_detect.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/driver_7segment.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/io_mux.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/keyrom.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_alu.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_clock_module.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_dbg.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_dbg_uart.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_execution_unit.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_frontend.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_periph/omsp_gpio.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_mem_backbone.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_multiplier.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_register_file.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sfr.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_reset.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_periph/omsp_timerA.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_uart.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_watchdog.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/openMSP430.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/pmem.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/ram.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/rom.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/vrased.v" \
+"../../../../../Desktop/MS CSEC/Capstone/vrased-master/openmsp430/simulation/tb_openMSP430_fpga.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

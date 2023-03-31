@@ -1,0 +1,158 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_openMSP430_fpga_behav xil_defaultlib.tb_openMSP430_fpga xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'D_Table' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/openMSP430.v:587]
+WARNING: [VRFC 10-5021] port 'JC1' is not connected on this instance [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/simulation/tb_openMSP430_fpga.v:255]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v" Line 41. Module openMSP430_fpga doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/openMSP430.v" Line 48. Module openMSP430 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_clock_module.v" Line 48. Module omsp_clock_module_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_reset.v" Line 44. Module omsp_sync_reset doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_frontend.v" Line 48. Module omsp_frontend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_execution_unit.v" Line 48. Module omsp_execution_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_register_file.v" Line 48. Module omsp_register_file doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_alu.v" Line 48. Module omsp_alu doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_mem_backbone.v" Line 48. Module omsp_mem_backbone doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/vrased.v" Line 13. Module vrased doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/X_stack.v" Line 1. Module X_stack(HMAC_BASE=16'b01000110000,KMEM_BASE=16'b0110101000000000,RESET_HANDLER=16'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/AC.v" Line 2. Module AC(KMEM_BASE=16'b0110101000000000,RESET_HANDLER=16'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/atomicity.v" Line 2. Module atomicity(RESET_HANDLER=16'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_AC.v" Line 2. Module dma_AC(KMEM_BASE=16'b0110101000000000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_detect.v" Line 2. Module dma_detect_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_X_stack.v" Line 2. Module dma_X_stack doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v" Line 18. Module D_Table doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/rom.v" Line 41. Module rom doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/keyrom.v" Line 35. Module keyrom(MEM_SIZE=64) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sfr.v" Line 49. Module omsp_sfr_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_watchdog.v" Line 48. Module omsp_watchdog_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_multiplier.v" Line 48. Module omsp_multiplier_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_dbg.v" Line 48. Module omsp_dbg_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_dbg_uart.v" Line 48. Module omsp_dbg_uart doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_periph/omsp_gpio.v" Line 44. Module omsp_gpio(P1_EN=1,P2_EN=1,P3_EN=1,P4_EN=0,P5_EN=0,P6_EN=0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_periph/omsp_timerA.v" Line 48. Module omsp_timerA_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/driver_7segment.v" Line 39. Module driver_7segment_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_uart.v" Line 44. Module omsp_uart_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/io_mux.v" Line 39. Module io_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/io_mux.v" Line 39. Module io_mux doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/ram.v" Line 39. Module ram(ADDR_MSB=13,MEM_SIZE=24576) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/pmem.v" Line 39. Module pmem(ADDR_MSB=11,MEM_SIZE=8192) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v" Line 41. Module openMSP430_fpga doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/openMSP430.v" Line 48. Module openMSP430 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_clock_module.v" Line 48. Module omsp_clock_module_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_reset.v" Line 44. Module omsp_sync_reset doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_sync_cell.v" Line 44. Module omsp_sync_cell doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_frontend.v" Line 48. Module omsp_frontend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_execution_unit.v" Line 48. Module omsp_execution_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_register_file.v" Line 48. Module omsp_register_file doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_alu.v" Line 48. Module omsp_alu doesn't have a timescale but at least one module in design has a timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4099' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.IBUFG
+Compiling module unisims_ver.dcm_adv_clock_divide_by_2
+Compiling module unisims_ver.dcm_adv_maximum_period_check(clo...
+Compiling module unisims_ver.dcm_adv_maximum_period_check(clo...
+Compiling module unisims_ver.dcm_adv_clock_lost
+Compiling module unisims_ver.DCM_ADV(CLKDV_DIVIDE=10.0,CLKIN_...
+Compiling module unisims_ver.DCM(CLKDV_DIVIDE=10.0,CLKIN_DIVI...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.omsp_sync_cell
+Compiling module xil_defaultlib.omsp_sync_reset
+Compiling module xil_defaultlib.omsp_clock_module_default
+Compiling module xil_defaultlib.omsp_frontend
+Compiling module xil_defaultlib.omsp_register_file
+Compiling module xil_defaultlib.omsp_alu
+Compiling module xil_defaultlib.omsp_execution_unit
+Compiling module xil_defaultlib.omsp_mem_backbone
+Compiling module xil_defaultlib.X_stack(HMAC_BASE=16'b0100011000...
+Compiling module xil_defaultlib.AC(KMEM_BASE=16'b011010100000000...
+Compiling module xil_defaultlib.atomicity(RESET_HANDLER=16'b0)
+Compiling module xil_defaultlib.dma_AC(KMEM_BASE=16'b01101010000...
+Compiling module xil_defaultlib.dma_detect_default
+Compiling module xil_defaultlib.dma_X_stack
+Compiling module xil_defaultlib.vrased
+Compiling module xil_defaultlib.D_Table
+Compiling module xil_defaultlib.rom
+Compiling module xil_defaultlib.keyrom(MEM_SIZE=64)
+Compiling module xil_defaultlib.omsp_sfr_default
+Compiling module xil_defaultlib.omsp_watchdog_default
+Compiling module xil_defaultlib.omsp_multiplier_default
+Compiling module xil_defaultlib.omsp_dbg_uart
+Compiling module xil_defaultlib.omsp_dbg_default
+Compiling module xil_defaultlib.openMSP430
+Compiling module xil_defaultlib.omsp_gpio(P1_EN=1,P2_EN=1,P3_EN=...
+Compiling module xil_defaultlib.omsp_timerA_default
+Compiling module xil_defaultlib.driver_7segment_default
+Compiling module xil_defaultlib.omsp_uart_default
+Compiling module xil_defaultlib.io_mux
+Compiling module xil_defaultlib.ram(ADDR_MSB=13,MEM_SIZE=24576)
+Compiling module xil_defaultlib.pmem(ADDR_MSB=11,MEM_SIZE=8192)
+Compiling module unisims_ver.OBUF
+Compiling module xil_defaultlib.openMSP430_fpga
+Compiling module xil_defaultlib.tb_openMSP430_fpga
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_openMSP430_fpga_behav
