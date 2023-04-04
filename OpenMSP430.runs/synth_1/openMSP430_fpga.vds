@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Fri Mar 31 16:15:23 2023
-# Process ID: 12356
+# Start of session at: Tue Apr  4 18:37:27 2023
+# Process ID: 25476
 # Current directory: C:/Users/Siren/OpenMSP430/OpenMSP430.runs/synth_1
 # Command line: vivado.exe -log openMSP430_fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source openMSP430_fpga.tcl
 # Log file: C:/Users/Siren/OpenMSP430/OpenMSP430.runs/synth_1/openMSP430_fpga.vds
@@ -11,7 +11,7 @@
 # Running On: LAPTOP-HS3CL35A, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16948 MB
 #-----------------------------------------------------------
 source openMSP430_fpga.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 388.289 ; gain = 46.215
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 387.828 ; gain = 43.832
 Command: read_checkpoint -auto_incremental -incremental C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/utils_1/imports/synth_1/openMSP430_fpga.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/utils_1/imports/synth_1/openMSP430_fpga.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -24,13 +24,12 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 27192
+INFO: [Synth 8-7075] Helper process launched with PID 26656
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 WARNING: [Synth 8-9398] empty port in module declaration [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/AC.v:10]
 WARNING: [Synth 8-9398] empty port in module declaration [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_AC.v:9]
 WARNING: [Synth 8-9398] empty port in module declaration [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_X_stack.v:9]
 WARNING: [Synth 8-9398] empty port in module declaration [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_detect.v:10]
-INFO: [Synth 8-11241] undeclared symbol 'D_Table', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/openMSP430.v:587]
 CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'X_stack' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/X_stack.v:92]
 INFO: [Synth 8-9937] previous definition of design element 'X_stack' is here [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/X_stack.v:92]
 WARNING: [Synth 8-9398] empty port in module declaration [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/AC.v:10]
@@ -47,54 +46,55 @@ INFO: [Synth 8-9937] previous definition of design element 'dma_detect' is here 
 WARNING: [Synth 8-9398] empty port in module declaration [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_X_stack.v:9]
 CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'dma_X_stack' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_X_stack.v:58]
 INFO: [Synth 8-9937] previous definition of design element 'dma_X_stack' is here [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/dma_X_stack.v:58]
-INFO: [Synth 8-11241] undeclared symbol 'clk_100M_in', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:366]
-INFO: [Synth 8-11241] undeclared symbol 'dcm_clk', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:423]
-INFO: [Synth 8-11241] undeclared symbol 'CLK0_BUF', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:426]
-INFO: [Synth 8-11241] undeclared symbol 'dcm_locked', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:432]
-INFO: [Synth 8-11241] undeclared symbol 'CLKFB_IN', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:437]
-INFO: [Synth 8-11241] undeclared symbol 'clk_sys', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:480]
-INFO: [Synth 8-11241] undeclared symbol 'reset_n', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:492]
-INFO: [Synth 8-11241] undeclared symbol 'aclk_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:508]
-INFO: [Synth 8-11241] undeclared symbol 'dbg_freeze', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:509]
-INFO: [Synth 8-11241] undeclared symbol 'dbg_uart_txd', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:511]
-INFO: [Synth 8-11241] undeclared symbol 'dmem_cen', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:515]
-INFO: [Synth 8-11241] undeclared symbol 'mclk', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:521]
-INFO: [Synth 8-11241] undeclared symbol 'per_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:528]
-INFO: [Synth 8-11241] undeclared symbol 'pmem_cen', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:530]
-INFO: [Synth 8-11241] undeclared symbol 'puc_rst', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:533]
-INFO: [Synth 8-11241] undeclared symbol 'smclk_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:535]
-INFO: [Synth 8-11241] undeclared symbol 'dbg_uart_rxd', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:545]
-INFO: [Synth 8-11241] undeclared symbol 'nmi', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:556]
-INFO: [Synth 8-11241] undeclared symbol 'irq_port1', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:583]
-INFO: [Synth 8-11241] undeclared symbol 'irq_port2', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:584]
-INFO: [Synth 8-11241] undeclared symbol 'irq_ta0', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:627]
-INFO: [Synth 8-11241] undeclared symbol 'irq_ta1', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:628]
-INFO: [Synth 8-11241] undeclared symbol 'ta_out0', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:630]
-INFO: [Synth 8-11241] undeclared symbol 'ta_out0_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:631]
-INFO: [Synth 8-11241] undeclared symbol 'ta_out1', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:632]
-INFO: [Synth 8-11241] undeclared symbol 'ta_out1_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:633]
-INFO: [Synth 8-11241] undeclared symbol 'ta_out2', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:634]
-INFO: [Synth 8-11241] undeclared symbol 'ta_out2_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:635]
-INFO: [Synth 8-11241] undeclared symbol 'inclk', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:640]
-INFO: [Synth 8-11241] undeclared symbol 'ta_cci0a', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:649]
-INFO: [Synth 8-11241] undeclared symbol 'ta_cci0b', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:650]
-INFO: [Synth 8-11241] undeclared symbol 'ta_cci1a', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:651]
-INFO: [Synth 8-11241] undeclared symbol 'ta_cci2a', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:653]
-INFO: [Synth 8-11241] undeclared symbol 'taclk', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:655]
-INFO: [Synth 8-11241] undeclared symbol 'seg_a_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:667]
-INFO: [Synth 8-11241] undeclared symbol 'seg_b_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:668]
-INFO: [Synth 8-11241] undeclared symbol 'seg_c_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:669]
-INFO: [Synth 8-11241] undeclared symbol 'seg_d_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:670]
-INFO: [Synth 8-11241] undeclared symbol 'seg_e_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:671]
-INFO: [Synth 8-11241] undeclared symbol 'seg_f_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:672]
-INFO: [Synth 8-11241] undeclared symbol 'seg_g_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:673]
-INFO: [Synth 8-11241] undeclared symbol 'seg_dp_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:674]
-INFO: [Synth 8-11241] undeclared symbol 'seg_an0_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:675]
-INFO: [Synth 8-11241] undeclared symbol 'seg_an1_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:676]
-INFO: [Synth 8-11241] undeclared symbol 'seg_an2_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:677]
-INFO: [Synth 8-11241] undeclared symbol 'seg_an3_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:678]
+INFO: [Synth 8-11241] undeclared symbol 'clk_100M_in', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:368]
+INFO: [Synth 8-11241] undeclared symbol 'dcm_clk', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:425]
+INFO: [Synth 8-11241] undeclared symbol 'CLK0_BUF', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:428]
+INFO: [Synth 8-11241] undeclared symbol 'dcm_locked', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:434]
+INFO: [Synth 8-11241] undeclared symbol 'CLKFB_IN', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:439]
+INFO: [Synth 8-11241] undeclared symbol 'clk_sys', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:482]
+INFO: [Synth 8-11241] undeclared symbol 'reset_n', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:494]
+INFO: [Synth 8-11241] undeclared symbol 'aclk_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:510]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_freeze', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:511]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_uart_txd', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:513]
+INFO: [Synth 8-11241] undeclared symbol 'dmem_cen', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:517]
+INFO: [Synth 8-11241] undeclared symbol 'mclk', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:523]
+INFO: [Synth 8-11241] undeclared symbol 'per_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:530]
+INFO: [Synth 8-11241] undeclared symbol 'pmem_cen', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:532]
+INFO: [Synth 8-11241] undeclared symbol 'puc_rst', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:535]
+INFO: [Synth 8-11241] undeclared symbol 'smclk_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:537]
+INFO: [Synth 8-11241] undeclared symbol 'dbg_uart_rxd', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:548]
+INFO: [Synth 8-11241] undeclared symbol 'nmi', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:559]
+INFO: [Synth 8-11241] undeclared symbol 'irq_port1', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:586]
+INFO: [Synth 8-11241] undeclared symbol 'irq_port2', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:587]
+INFO: [Synth 8-11241] undeclared symbol 'irq_ta0', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:630]
+INFO: [Synth 8-11241] undeclared symbol 'irq_ta1', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:631]
+INFO: [Synth 8-11241] undeclared symbol 'ta_out0', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:633]
+INFO: [Synth 8-11241] undeclared symbol 'ta_out0_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:634]
+INFO: [Synth 8-11241] undeclared symbol 'ta_out1', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:635]
+INFO: [Synth 8-11241] undeclared symbol 'ta_out1_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:636]
+INFO: [Synth 8-11241] undeclared symbol 'ta_out2', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:637]
+INFO: [Synth 8-11241] undeclared symbol 'ta_out2_en', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:638]
+INFO: [Synth 8-11241] undeclared symbol 'inclk', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:643]
+INFO: [Synth 8-11241] undeclared symbol 'ta_cci0a', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:652]
+INFO: [Synth 8-11241] undeclared symbol 'ta_cci0b', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:653]
+INFO: [Synth 8-11241] undeclared symbol 'ta_cci1a', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:654]
+INFO: [Synth 8-11241] undeclared symbol 'ta_cci2a', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:656]
+INFO: [Synth 8-11241] undeclared symbol 'taclk', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:658]
+INFO: [Synth 8-11241] undeclared symbol 'seg_a_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:670]
+INFO: [Synth 8-11241] undeclared symbol 'seg_b_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:671]
+INFO: [Synth 8-11241] undeclared symbol 'seg_c_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:672]
+INFO: [Synth 8-11241] undeclared symbol 'seg_d_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:673]
+INFO: [Synth 8-11241] undeclared symbol 'seg_e_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:674]
+INFO: [Synth 8-11241] undeclared symbol 'seg_f_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:675]
+INFO: [Synth 8-11241] undeclared symbol 'seg_g_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:676]
+INFO: [Synth 8-11241] undeclared symbol 'seg_dp_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:677]
+INFO: [Synth 8-11241] undeclared symbol 'seg_an0_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:678]
+INFO: [Synth 8-11241] undeclared symbol 'seg_an1_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:679]
+INFO: [Synth 8-11241] undeclared symbol 'seg_an2_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:680]
+INFO: [Synth 8-11241] undeclared symbol 'seg_an3_', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:681]
+INFO: [Synth 8-11241] undeclared symbol 'per_dout_chkpnt', assumed default net type 'wire' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:721]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1201.727 ; gain = 410.805
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1200.543 ; gain = 409.414
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'openMSP430_fpga' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:41]
 INFO: [Synth 8-6157] synthesizing module 'IBUFG' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:71820]
@@ -173,7 +173,6 @@ WARNING: [Synth 8-7023] instance 'dma_X_stack_0' of module 'dma_X_stack' has 6 c
 INFO: [Synth 8-6155] done synthesizing module 'vrased' (0#1) [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/vrased.v:13]
 INFO: [Synth 8-6157] synthesizing module 'D_Table' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:18]
 INFO: [Synth 8-6155] done synthesizing module 'D_Table' (0#1) [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:18]
-WARNING: [Synth 8-689] width (1) of port connection 'D_Table' does not match port width (16) of module 'D_Table' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/openMSP430.v:587]
 INFO: [Synth 8-6157] synthesizing module 'rom' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/rom.v:41]
 	Parameter ADDR_MSB bound to: 12 - type: integer 
 	Parameter MEM_SIZE bound to: 16384 - type: integer 
@@ -211,6 +210,9 @@ INFO: [Synth 8-6155] done synthesizing module 'driver_7segment' (0#1) [C:/Users/
 INFO: [Synth 8-6157] synthesizing module 'omsp_uart' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_uart.v:44]
 	Parameter BASE_ADDR bound to: 15'b000000010000000 
 INFO: [Synth 8-6155] done synthesizing module 'omsp_uart' (0#1) [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_uart.v:44]
+INFO: [Synth 8-6157] synthesizing module 'chkpnt_mem' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/Checkpoint Memory.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'chkpnt_mem' (0#1) [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/Checkpoint Memory.v:44]
+WARNING: [Synth 8-689] width (1) of port connection 'per_dout' does not match port width (16) of module 'chkpnt_mem' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:721]
 INFO: [Synth 8-6157] synthesizing module 'io_mux' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/io_mux.v:39]
 	Parameter WIDTH bound to: 8 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'io_mux' (0#1) [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/io_mux.v:39]
@@ -225,14 +227,30 @@ INFO: [Synth 8-3876] $readmem data file './pmem.mem' is read successfully [C:/Us
 INFO: [Synth 8-6155] done synthesizing module 'pmem' (0#1) [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_memory/pmem.v:39]
 INFO: [Synth 8-6157] synthesizing module 'OBUF' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90662]
 INFO: [Synth 8-6155] done synthesizing module 'OBUF' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90662]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:916]
-WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:917]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:937]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:938]
 INFO: [Synth 8-6155] done synthesizing module 'openMSP430_fpga' (0#1) [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:41]
 WARNING: [Synth 8-6014] Unused sequential element pmem_dout_bckup_reg was removed.  [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_mem_backbone.v:427]
 WARNING: [Synth 8-6014] Unused sequential element smem_dout_bckup_reg was removed.  [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_mem_backbone.v:436]
 WARNING: [Synth 8-3848] Net srom_wen in module/entity omsp_mem_backbone does not have driver. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/msp_core/omsp_mem_backbone.v:129]
-WARNING: [Synth 8-6014] Unused sequential element i_reg was removed.  [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:72]
+WARNING: [Synth 8-6014] Unused sequential element i_reg was removed.  [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:82]
 WARNING: [Synth 8-3848] Net UART_TXD in module/entity openMSP430_fpga does not have driver. [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:223]
+WARNING: [Synth 8-7129] Port per_din[15] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[14] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[13] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[12] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[11] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[10] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[9] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[8] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[7] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[6] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[5] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[4] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[3] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[2] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[1] in module chkpnt_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port per_din[0] in module chkpnt_mem is either unconnected or has no load
 WARNING: [Synth 8-7129] Port p4_din[7] in module omsp_gpio is either unconnected or has no load
 WARNING: [Synth 8-7129] Port p4_din[6] in module omsp_gpio is either unconnected or has no load
 WARNING: [Synth 8-7129] Port p4_din[5] in module omsp_gpio is either unconnected or has no load
@@ -317,36 +335,20 @@ WARNING: [Synth 8-7129] Port per_din[15] in module omsp_sfr is either unconnecte
 WARNING: [Synth 8-7129] Port per_din[14] in module omsp_sfr is either unconnected or has no load
 WARNING: [Synth 8-7129] Port per_din[13] in module omsp_sfr is either unconnected or has no load
 WARNING: [Synth 8-7129] Port per_din[12] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[11] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[10] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[9] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[8] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[7] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[6] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[5] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[3] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[2] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port per_din[1] in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port scan_mode in module omsp_sfr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ram_din[15] in module rom is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ram_din[14] in module rom is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ram_din[13] in module rom is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ram_din[12] in module rom is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ram_din[11] in module rom is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:30 . Memory (MB): peak = 1347.527 ; gain = 556.605
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1348.156 ; gain = 557.027
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:30 . Memory (MB): peak = 1347.527 ; gain = 556.605
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1348.156 ; gain = 557.027
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:30 . Memory (MB): peak = 1347.527 ; gain = 556.605
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1348.156 ; gain = 557.027
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.341 . Memory (MB): peak = 1347.527 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.130 . Memory (MB): peak = 1353.098 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 WARNING: [Netlist 29-432] The IBUFG primitive 'ibuf_clk_main' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
 WARNING: [Netlist 29-365] DCM_ADV instance 'dcm_adv_clk_main' has been transformed into an MMCM. Please check the output clock waveforms for correctness. If the output clocks are incorrect, modify your design to use the MMCME<#>_ADV native to the target architecture.
@@ -396,31 +398,31 @@ Resolution: To avoid this warning, move constraints listed in [.Xil/openMSP430_f
 INFO: [Timing 38-2] Deriving generated clocks
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1449.602 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1457.914 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2 instances were transformed.
   DCM => MMCME2_ADV: 1 instance 
   IBUFG => IBUF: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 1449.602 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1457.914 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:01:02 . Memory (MB): peak = 1449.602 ; gain = 658.680
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1457.914 ; gain = 666.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:01:02 . Memory (MB): peak = 1449.602 ; gain = 658.680
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1457.914 ; gain = 666.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:01:03 . Memory (MB): peak = 1449.602 ; gain = 658.680
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1457.914 ; gain = 666.785
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'i_state_reg' in module 'omsp_frontend'
 INFO: [Synth 8-802] inferred FSM for state register 'e_state_reg' in module 'omsp_frontend'
@@ -488,7 +490,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'uart_state_reg' using enco
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'mem_state_reg' using encoding 'one-hot' in module 'omsp_dbg'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:01:11 . Memory (MB): peak = 1449.602 ; gain = 658.680
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:28 . Memory (MB): peak = 1457.914 ; gain = 666.785
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-223] decloning instance 'gpio_0/sync_cell_p4in_0' (omsp_sync_cell) to 'gpio_0/sync_cell_p4in_1'
 INFO: [Synth 8-223] decloning instance 'gpio_0/sync_cell_p4in_0' (omsp_sync_cell) to 'gpio_0/sync_cell_p4in_2'
@@ -543,7 +545,7 @@ Detailed RTL Component Info :
 	               10 Bit    Registers := 1     
 	                9 Bit    Registers := 1     
 	                8 Bit    Registers := 42    
-	                6 Bit    Registers := 3     
+	                6 Bit    Registers := 2     
 	                5 Bit    Registers := 2     
 	                4 Bit    Registers := 7     
 	                3 Bit    Registers := 6     
@@ -627,7 +629,7 @@ INFO: [Synth 8-6851] RAM (pmem_0/mem_reg) has partial Byte Wide Write Enable pat
 WARNING: [Synth 8-3332] Sequential element (BTN2_PIN) is unused and will be removed from module openMSP430_fpga.
 WARNING: [Synth 8-3332] Sequential element (BTN1_PIN) is unused and will be removed from module openMSP430_fpga.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:55 ; elapsed = 00:06:15 . Memory (MB): peak = 1449.602 ; gain = 658.680
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:19 ; elapsed = 00:03:19 . Memory (MB): peak = 1457.914 ; gain = 666.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -658,13 +660,13 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:07 ; elapsed = 00:06:50 . Memory (MB): peak = 1449.602 ; gain = 658.680
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:23 ; elapsed = 00:03:33 . Memory (MB): peak = 1457.914 ; gain = 666.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:09 ; elapsed = 00:06:58 . Memory (MB): peak = 1449.602 ; gain = 658.680
+Finished Timing Optimization : Time (s): cpu = 00:01:24 ; elapsed = 00:03:36 . Memory (MB): peak = 1457.914 ; gain = 666.785
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -685,16 +687,16 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-3332] Sequential element (BTN0_PIN) is unused and will be removed from module openMSP430_fpga.
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin O with 1st driver pin 'BTN0_PIN/O' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:918]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin O with 2nd driver pin 'GND' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:918]
-CRITICAL WARNING: [Synth 8-6858] multi-driven net O is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:918]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin O with 1st driver pin 'BTN0_PIN/O' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:939]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin O with 2nd driver pin 'GND' [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:939]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net O is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/openmsp430/fpga/openMSP430_fpga.v:939]
 INFO: [Synth 8-7052] The timing for the instance openMSP430_0/srom_0/ram_addr_reg_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance openMSP430_0/srom_0/ram_addr_reg_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance openMSP430_0/srom_0/ram_addr_reg_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance openMSP430_0/srom_0/ram_addr_reg_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance openMSP430_0/skey_0/rom_addr_reg_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:13 ; elapsed = 00:07:11 . Memory (MB): peak = 1515.172 ; gain = 724.250
+Finished Technology Mapping : Time (s): cpu = 00:01:25 ; elapsed = 00:03:41 . Memory (MB): peak = 1517.922 ; gain = 726.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -712,37 +714,88 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:19 ; elapsed = 00:07:29 . Memory (MB): peak = 1530.391 ; gain = 739.469
+Finished IO Insertion : Time (s): cpu = 00:01:27 ; elapsed = 00:03:49 . Memory (MB): peak = 1532.172 ; gain = 741.043
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:19 ; elapsed = 00:07:29 . Memory (MB): peak = 1530.391 ; gain = 739.469
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:27 ; elapsed = 00:03:49 . Memory (MB): peak = 1532.172 ; gain = 741.043
 ---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[15]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[15]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[15]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[15]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[14]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[14]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[14]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[14]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[13]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[13]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[13]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[13]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[12]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[12]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[12]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[12]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[11]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[11]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[11]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[11]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[10]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[10]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[10]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[10]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[9]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[9]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[9]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[9]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[8]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[8]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[8]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[8]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[7]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[7]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[7]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[7]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[6]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[6]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[6]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[6]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[5]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[5]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[5]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[5]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[4]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[4]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[4]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[4]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[3]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[3]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[3]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[3]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[2]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[2]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[2]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[2]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[1]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[1]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[1]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[1]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[0]__0_n_0 with 1st driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[0]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:73]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/tmp_table_reg[0]__0_n_0 with 2nd driver pin 'openMSP430_0/D_Table_0/tmp_table_reg[0]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:80]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[5] with 1st driver pin 'openMSP430_0/D_Table_0/temp_reg[5]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:79]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[5] with 2nd driver pin 'openMSP430_0/D_Table_0/temp_reg[5]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[4] with 1st driver pin 'openMSP430_0/D_Table_0/temp_reg[4]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:79]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[4] with 2nd driver pin 'openMSP430_0/D_Table_0/temp_reg[4]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[3] with 1st driver pin 'openMSP430_0/D_Table_0/temp_reg[3]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:79]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[3] with 2nd driver pin 'openMSP430_0/D_Table_0/temp_reg[3]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[2] with 1st driver pin 'openMSP430_0/D_Table_0/temp_reg[2]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:79]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[2] with 2nd driver pin 'openMSP430_0/D_Table_0/temp_reg[2]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[1] with 1st driver pin 'openMSP430_0/D_Table_0/temp_reg[1]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:79]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[1] with 2nd driver pin 'openMSP430_0/D_Table_0/temp_reg[1]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:72]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[0] with 1st driver pin 'openMSP430_0/D_Table_0/temp_reg[0]/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:79]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin openMSP430_0/D_Table_0/temp[0] with 2nd driver pin 'openMSP430_0/D_Table_0/temp_reg[0]__0/Q' [C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v:72]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       22|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:20 ; elapsed = 00:07:31 . Memory (MB): peak = 1530.391 ; gain = 739.469
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:27 ; elapsed = 00:03:50 . Memory (MB): peak = 1532.172 ; gain = 741.043
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:20 ; elapsed = 00:07:31 . Memory (MB): peak = 1530.391 ; gain = 739.469
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:27 ; elapsed = 00:03:50 . Memory (MB): peak = 1532.172 ; gain = 741.043
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:20 ; elapsed = 00:07:31 . Memory (MB): peak = 1530.391 ; gain = 739.469
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:27 ; elapsed = 00:03:50 . Memory (MB): peak = 1532.191 ; gain = 741.062
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:20 ; elapsed = 00:07:32 . Memory (MB): peak = 1530.391 ; gain = 739.469
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:27 ; elapsed = 00:03:50 . Memory (MB): peak = 1532.191 ; gain = 741.062
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -771,11 +824,11 @@ Report Cell Usage:
 |3     |DCM       |     1|
 |4     |DSP48E1   |     1|
 |5     |LUT1      |    74|
-|6     |LUT2      |   266|
-|7     |LUT3      |   218|
-|8     |LUT4      |   690|
-|9     |LUT5      |   573|
-|10    |LUT6      |  2515|
+|6     |LUT2      |   265|
+|7     |LUT3      |   217|
+|8     |LUT4      |   692|
+|9     |LUT5      |   572|
+|10    |LUT6      |  2519|
 |11    |MUXF7     |   412|
 |12    |MUXF8     |   137|
 |13    |RAM128X1D |  2048|
@@ -783,40 +836,40 @@ Report Cell Usage:
 |15    |RAMB36E1  |     4|
 |19    |FDCE      |  1070|
 |20    |FDPE      |    62|
-|21    |FDRE      |   503|
+|21    |FDRE      |   525|
 |22    |IBUF      |    10|
 |23    |IBUFG     |     1|
 |24    |OBUF      |    22|
 |25    |OBUFT     |     1|
 +------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:20 ; elapsed = 00:07:32 . Memory (MB): peak = 1530.391 ; gain = 739.469
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:27 ; elapsed = 00:03:50 . Memory (MB): peak = 1532.191 ; gain = 741.062
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 3 critical warnings and 146 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:07 ; elapsed = 00:07:22 . Memory (MB): peak = 1530.391 ; gain = 637.395
-Synthesis Optimization Complete : Time (s): cpu = 00:02:20 ; elapsed = 00:07:32 . Memory (MB): peak = 1530.391 ; gain = 739.469
+Synthesis finished with 0 errors, 47 critical warnings and 162 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:20 ; elapsed = 00:03:46 . Memory (MB): peak = 1532.191 ; gain = 631.305
+Synthesis Optimization Complete : Time (s): cpu = 00:01:27 ; elapsed = 00:03:50 . Memory (MB): peak = 1532.191 ; gain = 741.062
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.471 . Memory (MB): peak = 1530.391 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.170 . Memory (MB): peak = 1536.426 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2742 Unisim elements for replacement
 WARNING: [Netlist 29-432] The IBUFG primitive 'ibuf_clk_main' has been retargeted to an IBUF primitive only. No BUFG will be added. If a global buffer is intended, please instantiate an available global clock primitive from the current architecture.
 WARNING: [Netlist 29-365] DCM_ADV instance 'dcm_adv_clk_main' has been transformed into an MMCM. Please check the output clock waveforms for correctness. If the output clocks are incorrect, modify your design to use the MMCME<#>_ADV native to the target architecture.
 WARNING: [Netlist 29-365] DCM_ADV instance 'dcm_adv_clk_main' has been transformed into an MMCM. Please check the output clock waveforms for correctness. If the output clocks are incorrect, modify your design to use the MMCME<#>_ADV native to the target architecture.
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1539.207 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1544.086 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 2050 instances were transformed.
   DCM => MMCME2_ADV: 1 instance 
   IBUFG => IBUF: 1 instance 
   RAM128X1D => RAM128X1D (MUXF7(x2), RAMD64E(x4)): 2048 instances
 
-Synth Design complete, checksum: 48df8b03
+Synth Design complete, checksum: 3662e56c
 INFO: [Common 17-83] Releasing license: Synthesis
-201 Infos, 147 Warnings, 19 Critical Warnings and 0 Errors encountered.
+203 Infos, 147 Warnings, 63 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:31 ; elapsed = 00:08:05 . Memory (MB): peak = 1539.207 ; gain = 1123.555
+synth_design: Time (s): cpu = 00:01:30 ; elapsed = 00:04:03 . Memory (MB): peak = 1544.086 ; gain = 1128.863
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Siren/OpenMSP430/OpenMSP430.runs/synth_1/openMSP430_fpga.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file openMSP430_fpga_utilization_synth.rpt -pb openMSP430_fpga_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 31 16:23:48 2023...
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  4 18:41:42 2023...

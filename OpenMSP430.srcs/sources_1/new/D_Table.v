@@ -20,6 +20,8 @@ module D_Table(
 	clk,
 	data_addr,
 	data_wr,
+	reset_n,
+	pc,
 	//max_counter, ? Q: max counter as input or parameter?
 		
 	//OUTPUTS
@@ -32,7 +34,7 @@ module D_Table(
 parameter ADDR_MSB   =  6;         // MSB of the address bus
 parameter BLK_SIZE   =  64;       // Memory size in bytes
 parameter BLK_SIZE_SHIFT = 6;      // Constant for shift instead of division by 64
-parameter [5:0] MAX_COUNTER = 8;         // THRESHOLD VALUE
+parameter [5:0] MAX_COUNTER = 5;         // THRESHOLD VALUE triggers the interrupt
 
 // OUTPUTs
 //============
@@ -48,6 +50,8 @@ output irq_chkpnt;
 input [15:0] data_addr;       // RAM address
 input clk;        // RAM clock
 input data_wr;        // RAM write enable (low active)
+input reset_n;
+input [15:0] pc;
 
 // RAM
 //============
@@ -57,29 +61,33 @@ reg [15:0] i;
 // ? Size of D_Table/tmp_table depends on Dmem size
 reg [15:0] tmp_table;
 reg [5:0] temp;
-reg [5:0] counter;
 
 initial begin
     temp = 0;
     i = 0;
     tmp_table = 0;
-    counter = 0;
-
 end
-
+always @(negedge reset_n)
+    begin
+       temp = 0;
+       tmp_table=0;
+    end
 always @(posedge clk)
     begin
-      i = data_addr >> BLK_SIZE_SHIFT;
-      if(i< 16)
-      begin
-          temp = temp + {{ADDR_MSB-1{1'b0}},{((~tmp_table[i]) & data_wr)}};
-          //$display("temp: %b", temp);
-          //$display("table: %b", tmp_table);
-          //$display("wr: %b", data_wr);
-          tmp_table[i] = tmp_table[i] | data_wr;
+      if(pc==16'hFFFA)
+       begin
+        temp=0;
+        tmp_table=0;
+       end else begin
+          i = data_addr >> BLK_SIZE_SHIFT;
+          if(i< 16) // ADDED TEMPORARILY to address only fewer mem blocks
+          begin
+            temp = temp + {{ADDR_MSB-1{1'b0}},{((~tmp_table[i]) & data_wr)}};
+            tmp_table[i] = tmp_table[i] | data_wr;
+         end
       end
     end
-assign irq_chkpnt = (MAX_COUNTER<=temp);      //Optimize later
+assign irq_chkpnt = (MAX_COUNTER<=temp);
 assign D_Table = tmp_table;
 endmodule
 

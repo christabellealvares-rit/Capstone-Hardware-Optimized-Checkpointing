@@ -1,6 +1,8 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/AC.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module AC
 WARNING: [VRFC 10-2379] empty port in module declaration [C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/AC.v:10]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/Checkpoint Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module chkpnt_mem
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Siren/OpenMSP430/OpenMSP430.srcs/sources_1/new/D_Table.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module D_Table
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Siren/Desktop/MS CSEC/Capstone/vrased-master/vrased/hw-mod/X_stack.v" into library xil_defaultlib
